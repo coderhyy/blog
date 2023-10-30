@@ -27,12 +27,17 @@ export default defineAppConfig({
     },
     socials: {
       github: "coderhyy",
-      JueJin:{
-        icon:'simple-icons:juejin',
-        label:'掘金',
-        href: 'https://juejin.cn/user/439456594660231',
-        rel: 'me'
-      }
+      JueJin: {
+        icon: "simple-icons:juejin",
+        label: "掘金",
+        href: "https://juejin.cn/user/439456594660231",
+        rel: "me",
+      },
+      email: {
+        icon: "ic:outline-email",
+        label: "Email",
+        href: "mailto:coderhyy@gmail.com",
+      },
     },
     form: {
       successMessage: "Message sent. Thank you!",

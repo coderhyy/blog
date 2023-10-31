@@ -18,8 +18,9 @@ export default defineAppConfig({
     },
     footer: {
       credits: {
-        enabled: false, // possible value are : true | false
-        repository: "https://www.github.com/nuxt-themes/alpine", // our github repository
+        enabled: true, // possible value are : true | false
+        text: "桂ICP备2022001589号",
+        repository: "https://beian.miit.gov.cn", // our github repository
       },
       navigation: false, // possible value are : true | false
       alignment: "left", // possible value are : 'none' | 'left' | 'center' | 'right'
